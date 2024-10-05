@@ -56,7 +56,7 @@ This project is a Next.js application featuring a chatbot component. Follow the 
 
 7. Create a new file for the chatbot components:
 
-create a file "Chatbot.tsx" under src\components
+   create a file "Chatbot.tsx" under src\components
 
 8. Open `src/components/Chatbot.tsx` in your code editor and paste the chatbot component code.
 
