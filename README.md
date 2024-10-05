@@ -66,9 +66,11 @@ This project is a Next.js application featuring a chatbot component. Follow the 
 
 11. Ensure that the latest Avatar component from Shadcn is available;
 
-    ```npx shadcn@latest add avatar```
+    ```
+    npx shadcn@latest add avatar
+    ```
     
-12. Start the development server:
+13. Start the development server:
 
     ```
     npm run dev
