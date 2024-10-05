@@ -64,7 +64,11 @@ This project is a Next.js application featuring a chatbot component. Follow the 
 
 10. Update `src/app/page.tsx` to use the Chatbot component.
 
-11. Start the development server:
+11. Ensure that the latest Avatar component from Shadcn is available;
+
+    ```npx shadcn@latest add avatar```
+    
+12. Start the development server:
 
     ```
     npm run dev
