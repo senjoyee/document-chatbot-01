@@ -38,6 +38,10 @@ This project is a Next.js application featuring a chatbot component. Follow the 
    ```
 
 4. Set up the shadcn/ui components:
+   
+   ```
+   npx install shadcn
+   ```
 
    ```
    npx shadcn-ui@latest init
@@ -45,26 +49,26 @@ This project is a Next.js application featuring a chatbot component. Follow the 
 
    Note: Replace `latest` with the most recent version number if needed.
 
-5. Add the required shadcn/ui components:
+6. Add the required shadcn/ui components:
 
    ```
    npx shadcn-ui@latest add button input scroll-area
    ```
 
-6. Create a new file for the chatbot components:
+7. Create a new file for the chatbot components:
 
    ```
    mkdir src/components
    touch src/components/Chatbot.tsx
    ```
 
-7. Open `src/components/Chatbot.tsx` in your code editor and paste the chatbot component code.
+8. Open `src/components/Chatbot.tsx` in your code editor and paste the chatbot component code.
 
-8. Place the logo file `SoftwareOne_Logo_Lrg_RGB_Blk.svg` in the `public` folder of your Next.js project. Create the folder if it's missing.
+9. Place the logo file `SoftwareOne_Logo_Lrg_RGB_Blk.svg` in the `public` folder of your Next.js project. Create the folder if it's missing.
 
-9. Update `src/app/page.tsx` to use the Chatbot component.
+10. Update `src/app/page.tsx` to use the Chatbot component.
 
-10. Start the development server:
+11. Start the development server:
 
     ```
     npm run dev
