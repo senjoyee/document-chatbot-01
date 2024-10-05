@@ -44,15 +44,14 @@ This project is a Next.js application featuring a chatbot component. Follow the 
    ```
 
    ```
-   npx shadcn-ui@latest init
+   npx shadcn@latest init
    ```
 
-   Note: Replace `latest` with the most recent version number if needed.
-
+   
 6. Add the required shadcn/ui components:
 
    ```
-   npx shadcn-ui@latest add button input scroll-area
+   npx shadcn@latest add button input scroll-area
    ```
 
 7. Create a new file for the chatbot components:
