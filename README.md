@@ -55,7 +55,7 @@ This project is a Next.js application featuring a chatbot component. Follow the 
    npx shadcn@latest add button input scroll-area card table checkbox
    ```
 
-7. Create a new file for the chatbot components:
+7. Create a new files for the components:
 
    create a file `chatbot.tsx` under src\components and update the code accordingly.
 
