@@ -88,7 +88,9 @@ This project is a Next.js application featuring a chatbot component. Follow the 
 
 - `src/components/Chatbot.tsx`: Contains the main chatbot component
 - `src/components/uploadservice.tsx`: Contains the uploadservice component
-- `src/app/page.tsx`: Main page component that uses the Chatbot
+- `src/app/page.tsx`: Main page component for welcome screen
+- `src/app/chatbot/page.tsx` Main page for chatbot
+- `src/app/uploadservice/page.tsx` Main page for uploadservice
 - `public/SoftwareOne_Logo_Lrg_RGB_Blk.svg`: Logo file for the chatbot
 
 ## Dependencies
@@ -99,7 +101,8 @@ This project is a Next.js application featuring a chatbot component. Follow the 
 - Tailwind CSS
 - lucide-react
 - @radix-ui/react-scroll-area
-- shadcn/ui components (button, input, scroll-area)
+- shadcn/ui components (button, input, scroll-area, card, table, checkbox)
+- react-dropzone lucide-react sonner
 
 ## Development
 
