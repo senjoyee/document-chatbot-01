@@ -57,24 +57,29 @@ This project is a Next.js application featuring a chatbot component. Follow the 
 
 7. Create a new file for the chatbot components:
 
-   create a file `Chatbot.tsx` under src\components
+   create a file `chatbot.tsx` under src\components and update the code accordingly.
 
-   create a file `uploadservice.tsx` under src\components
+   create a file `uploadservice.tsx` under src\components and update the code accordingly.
 
-8. Open `src/components/Chatbot.tsx` in your code editor and paste the chatbot component code.
-9. Open `src/components/uploadservice.tsx` in your code editor and paste the uploadservice component code.
+8. Open `src/components/chatbot.tsx` in your code editor and paste the chatbot component code.
+   
+10. Open `src/components/uploadservice.tsx` in your code editor and paste the uploadservice component code.
 
-10. Place the logo file `SoftwareOne_Logo_Lrg_RGB_Blk.svg` in the `public` folder of your Next.js project. Create the folder if it's missing.
+11. Place the logo file `SoftwareOne_Logo_Lrg_RGB_Blk.svg` in the `public` folder of your Next.js project. Create the folder if it's missing.
 
-12. Update `src/app/page.tsx` to use the Chatbot component.
+12. Update `src/app/page.tsx` to use the Welcome Page.
 
-13. Ensure that the latest Avatar component from Shadcn is available;
+13. Create `src/app/chatbot/page.tsx` and update it.
+
+14. Create `src/app/uploadservice/page.tsx` and update it.
+
+15. Ensure that the latest Avatar component from Shadcn is available;
 
     ```
     npx shadcn@latest add avatar
     ```
     
-14. Start the development server:
+16. Start the development server:
 
     ```
     npm run dev
